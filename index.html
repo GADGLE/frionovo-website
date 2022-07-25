@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frionovo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="./index.html"><img src="./img/Logo.png" alt="Logo"></a>
+            <ul id="ul" class="navbar__list display">
+                <li><a href="./index.html" style="color: rgb(75, 77, 196);">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./contactanos.html">Contáctanos</a></li>
+            </ul>
+            <span class="material-icons" id="menu">menu</span>
+        </nav>
+    </header>
+    <section>
+        <div class="section__slider">
+            <div class="main__img condenser1__img">
+            </div>
+            <div class="main__img condenser2__img"></div>
+            <div class="main__img condenser3__img"></div>
+        </div>
+        <div class="slide__selection">
+            <span class="slide__button" onclick="selectSlide(0)"></span>
+            <span class="slide__button" onclick="selectSlide(1)"></span>
+            <span class="slide__button" onclick="selectSlide(2)"></span>
+        </div>
+    </section>
+
+    <main>
+        <div>
+            <h2 class="main__title">SERVICIOS</h2>
+            <div class="main__cards">
+                <div class="card">INSTALACIÓN DE EQUIPOS</div>
+                <div class="card">MANTENIMINETO DE EQUIPOS</div>
+                <div class="card">PROYECTOS DE AIRE ACONDICIONADO</div>
+                <div class="card">DUCTOS DE VENTILACIÓN</div>
+            </div>
+        </div>
+        <a class="whatsapp-button" href="https://wa.me/51"><img class="whatsapp-button__img" src="./img/Whatsapp.png" alt=""></a>
+        <div>
+            <h1 class="contactenos__title">CONTÁCTENOS</h1>
+        <form action="">
+            <div class="contactenos__div">
+                <label for="name">Nombre y apellido:</label>
+                <input type="text" id="name">
+            </div>
+            <div class="contactenos__div">
+                <label for="mail">Email:</label>
+                <input id="mail" type="email">
+            </div>
+            <div class="contactenos__div">
+                <label for="phone">Teléfono:</label>
+                <input id="phone" type="tel">
+            </div>
+            <div class="contactenos__div">
+                <label for="company">Empresa:</label>
+                <input id="company" type="text">
+            </div>
+            <div class="contactenos__div">
+                <label for="message">Mensaje:</label>
+                <textarea id="message"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__div">
+            <div class="footer__logo column">
+                <img src="./img/Logo.png" alt="Logo">
+            </div>
+            <div class="column">
+                <h3>INFORMES</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"><span class="material-icons">
+                        call
+                        </span>+51 999 999 999</li>
+                    <li class="footer__li"><span class="material-icons">
+                        email
+                        </span>MAIL</li>
+                    <li class="footer__li"><span class="material-icons">
+                        place
+                        </span><a href="">Av. Lomas de la Molina Vieja Mz. B1 Lote 20</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>SERVICIOS</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"> Instalación de equipos</li>
+                    <li class="footer__li"> Mantenimineto de equipos</li>
+                    <li class="footer__li"> Ventilación mecánica</li>
+                    <li class="footer__li"> Ductos de ventilación</li>
+                    <li class="footer__li"> Difusores de aire acondicionado</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>ENLACES</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a href="./index.html">Inicio</a></li>
+                    <li class="footer__li"><a href="./nosotros.html">Nosotros</a></li>
+                    <li class="footer__li"><a href="./servicios.html">Servicios</a></li>
+                    <li class="footer__li"><a href="./productos.html">Productos</a></li>
+                    <li class="footer__li"><a href="./contactanos.html">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./slide.js"></script>
+</body>
+</html>

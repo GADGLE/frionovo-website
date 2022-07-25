@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,14 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
     <title>Frionovo</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -52,32 +54,33 @@
                 <div class="card">DUCTOS DE VENTILACIÓN</div>
             </div>
         </div>
-        <a class="whatsapp-button" href="https://wa.me/51"><img class="whatsapp-button__img" src="./img/Whatsapp.png" alt=""></a>
+        <a class="whatsapp-button" href="https://wa.me/51"><img class="whatsapp-button__img" src="./img/Whatsapp.png"
+                alt=""></a>
         <div>
             <h1 class="contactenos__title">CONTÁCTENOS</h1>
-        <form action="">
-            <div class="contactenos__div">
-                <label for="name">Nombre y apellido:</label>
-                <input type="text" id="name">
-            </div>
-            <div class="contactenos__div">
-                <label for="mail">Email:</label>
-                <input id="mail" type="email">
-            </div>
-            <div class="contactenos__div">
-                <label for="phone">Teléfono:</label>
-                <input id="phone" type="tel">
-            </div>
-            <div class="contactenos__div">
-                <label for="company">Empresa:</label>
-                <input id="company" type="text">
-            </div>
-            <div class="contactenos__div">
-                <label for="message">Mensaje:</label>
-                <textarea id="message"></textarea>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="contactenos__div">
+                    <label for="name">Nombre y apellido:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="contactenos__div">
+                    <label for="mail">Email:</label>
+                    <input id="mail" type="email" name="mail">
+                </div>
+                <div class="contactenos__div">
+                    <label for="phone">Teléfono:</label>
+                    <input id="phone" type="tel" name="phone">
+                </div>
+                <div class="contactenos__div">
+                    <label for="company">Empresa:</label>
+                    <input id="company" type="text" name="company">
+                </div>
+                <div class="contactenos__div">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </div>
     </main>
     <footer>
@@ -89,13 +92,13 @@
                 <h3>INFORMES</h3>
                 <ul class="footer__ul">
                     <li class="footer__li"><span class="material-icons">
-                        call
+                            call
                         </span>+51 999 999 999</li>
                     <li class="footer__li"><span class="material-icons">
-                        email
+                            email
                         </span>MAIL</li>
                     <li class="footer__li"><span class="material-icons">
-                        place
+                            place
                         </span><a href="">Av. Lomas de la Molina Vieja Mz. B1 Lote 20</a>
                     </li>
                 </ul>
@@ -125,4 +128,5 @@
     <script src="./script.js"></script>
     <script src="./slide.js"></script>
 </body>
+
 </html>

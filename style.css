@@ -271,18 +271,34 @@ span {
     gap: 8rem;
 }
 
+.productos__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
 .productos__div {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.productos__div h2 {
+.productos__subtitle {
+    text-align: center;
+    background-color: rgb(221, 237, 252);
+    color: rgb(15, 15, 88);
+}
+
+.productos__div h3 {
+    background-color: aliceblue;
+    color: rgb(32, 104, 104);
     text-align: center;
 }
 
 .productos__img {
-    height: 100px;
+    height: 200px;
 }
 
 

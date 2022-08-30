@@ -226,6 +226,10 @@ span {
     line-height: 1.6;
 }
 
+.nosotros__div img {
+    width: 100%;
+}
+
 .nosotros__h1 {
     text-align: center;
     background-color: var(--bg-skyblue-color);
@@ -398,6 +402,8 @@ button {
     .nosotros__h1 {
         font-size: 5vw;
     }
+
+    
 
 
     .productos__title {

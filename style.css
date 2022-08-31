@@ -212,7 +212,7 @@ footer {
     color: rgb(63, 63, 63);
 }
 
-span {
+.material {
     margin-right: 5px;
 }
 
@@ -251,15 +251,29 @@ span {
     margin: 0;
 }
 
-.servicios__list li {
-    margin-bottom: 1.5rem;
+.servicios h2 {
+    margin-top: 2rem;
+    border-bottom: 2px solid rgb(243, 243, 243);
+    font-size: 1.2rem;
 }
 
 .servicios__img {
     width: 100%;
 }
 
+.servicios__img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
 
+.servicios__img-3 {
+    width: 30%;
+}
+
+.servicios__img-2 {
+    width: 45%;
+}
 
 .productos__title {
     margin: 0;
